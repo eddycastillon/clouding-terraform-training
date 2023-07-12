@@ -10,6 +10,8 @@ terraform state list
 ```
 ## AWS commands
 ```
-aws configure
+aws configure list-profiles
+aws configure --profile desa
+export AWS_PROFILE=desa
 aws ec2 describe-instances --region us-east-1
 ```
